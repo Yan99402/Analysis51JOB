@@ -54,7 +54,7 @@ def write_to_mongo(data):
     collection = db['51JobPositionDetail']
     collection.insert(data)
 
-    
+
 def main():
     urls = load_urls()
     items = []
